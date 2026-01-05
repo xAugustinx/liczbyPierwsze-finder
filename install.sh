@@ -1,4 +1,6 @@
 #!/bin/bash
+if [ -f liczbyPierwszeFinder]
+	./compile.sh	
 
 cp ./liczbyPierwszeFinder /usr/bin/
 chmod +x /usr/bin/liczbyPierwszeFinder
