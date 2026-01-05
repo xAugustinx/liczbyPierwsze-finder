@@ -36,7 +36,7 @@ void * maths(void * args) {
         fprintf(meowFile,"%ld\n",licznik);
         pthread_mutex_unlock(&lock);
         pthread_barrier_wait(&barrier);
-        usleep(20000);
+        usleep(1);
         licznik+= threadAmount;
     }
 }
